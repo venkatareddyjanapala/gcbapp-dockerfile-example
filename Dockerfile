@@ -12,6 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM var
+FROM $var
 COPY helloworld.sh /
 CMD ["/helloworld.sh"]
